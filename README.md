@@ -13,6 +13,29 @@ Go implementation of [Levenshtein Distance](https://en.wikipedia.org/wiki/Levens
 go get -u github.com/kenkyu392/go-levenshtein
 ```
 
+## Usage
+
+```go
+package main
+
+import (
+	"fmt"
+
+	"github.com/kenkyu392/go-levenshtein"
+)
+
+func main() {
+	var (
+		a = []rune("I Am a Cat")
+		b = []rune("I Am a Dog")
+	)
+	p := levenshtein.Percent(a, b)
+	c := levenshtein.Distance(a, b)
+	// -> 70% match. 3 character difference.
+	fmt.Printf("%.0f%% match. %d character difference.", p, c)
+}
+```
+
 ## License
 
 [MIT](https://github.com/kenkyu392/go-levenshtein/blob/master/LICENSE)
