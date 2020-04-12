@@ -2,8 +2,9 @@
 
 [![test](https://github.com/kenkyu392/go-levenshtein/workflows/test/badge.svg?branch=master)](https://github.com/kenkyu392/go-levenshtein)
 [![codecov](https://codecov.io/gh/kenkyu392/go-levenshtein/branch/master/graph/badge.svg)](https://codecov.io/gh/kenkyu392/go-levenshtein)
-[![GoDoc](https://godoc.org/github.com/kenkyu392/go-levenshtein?status.svg)](https://godoc.org/github.com/kenkyu392/go-levenshtein)
-[![Go Report Card](https://goreportcard.com/badge/github.com/kenkyu392/go-levenshtein)](https://goreportcard.com/report/github.com/kenkyu392/go-levenshtein)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-00ADD8?logo=go)](https://pkg.go.dev/github.com/kenkyu392/go-levenshtein)
+[![go report card](https://goreportcard.com/badge/github.com/kenkyu392/go-levenshtein)](https://goreportcard.com/report/github.com/kenkyu392/go-levenshtein)
+[![license](https://img.shields.io/github/license/kenkyu392/go-levenshtein)](LICENSE)
 
 Go implementation of [Levenshtein Distance](https://en.wikipedia.org/wiki/Levenshtein_distance).
 
@@ -38,4 +39,4 @@ func main() {
 
 ## License
 
-[MIT](https://github.com/kenkyu392/go-levenshtein/blob/master/LICENSE)
+[MIT](LICENSE)
